@@ -1,0 +1,15 @@
+{
+    "name": "isaac/magento-product-reports",
+    "description": "Magento admin reports for products without images and products without categories.",
+    "type": "magento-module",
+    "license": "OSL 3.0",
+    "authors": [
+        {
+            "name": "ISAAC Software Solutions B.V.",
+            "email": "info@isaac.nl"
+        }
+    ],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
+    },
+}
