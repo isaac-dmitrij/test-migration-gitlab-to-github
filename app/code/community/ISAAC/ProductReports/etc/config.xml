@@ -71,11 +71,11 @@
                       <children>
                           <no_category translate="label" module="isaacproductreports">
                               <title>Without category</title>
-                              <action>isaacproductreports/adminhtml_report/withoutCategory</action>
+                              <action>adminhtml/isaacproductreports_report/withoutCategory</action>
                           </no_category>
                           <no_image translate="label" module="isaacproductreports">
                               <title>Without image</title>
-                              <action>isaacproductreports/adminhtml_report/withoutImage</action>
+                              <action>adminhtml/isaacproductreports_report/withoutImage</action>
                           </no_image>
                       </children>
                   </products>

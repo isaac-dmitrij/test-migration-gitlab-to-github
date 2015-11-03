@@ -15,7 +15,7 @@
  * @author ISAAC Software Solutions B.V. (https://www.isaac.nl)
  */
 
-class ISAAC_ProductReports_Adminhtml_ReportController extends Mage_Adminhtml_Controller_Action
+class ISAAC_ProductReports_Adminhtml_Isaacproductreports_ReportController extends Mage_Adminhtml_Controller_Action
 {
     /**
      * init
