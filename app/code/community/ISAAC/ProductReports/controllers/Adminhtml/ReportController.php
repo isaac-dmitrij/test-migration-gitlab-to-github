@@ -54,4 +54,17 @@ class ISAAC_ProductReports_Adminhtml_ReportController extends Mage_Adminhtml_Con
             ->_addContent($this->getLayout()->createBlock('isaacproductreports/product_withoutImage'))
             ->renderLayout();
     }
+
+    protected function _isAllowed()
+    {
+        $action = strtolower($this->getRequest()->getActionName());
+        switch ($action) {
+            case 'withoutcategory':
+                return Mage::getSingleton('admin/session')->isAllowed('report/products/no_category');
+            case 'withoutimage':
+                return Mage::getSingleton('admin/session')->isAllowed('report/products/no_image');
+            default:
+                return false;
+        }
+    }
 }
