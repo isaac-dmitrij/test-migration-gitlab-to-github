@@ -11,5 +11,5 @@
     ],
     "suggest": {
         "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
-    },
+    }
 }
