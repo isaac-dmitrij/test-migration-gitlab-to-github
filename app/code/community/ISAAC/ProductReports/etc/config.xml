@@ -45,13 +45,13 @@
     </global>
     <admin>
       <routers>
-          <isaacproductreports>
-              <use>admin</use>
-              <args>
-                  <module>ISAAC_ProductReports</module>
-                  <frontName>isaacproductreports</frontName>
-              </args>
-            </isaacproductreports>
+          <adminhtml>
+                <args>
+                    <modules>
+                        <isaacproductreports before="Mage_Adminhtml">ISAAC_ProductReports_Adminhtml</isaacproductreports>
+                    </modules>
+                </args>
+            </adminhtml>
       </routers>
     </admin>
     <websites>
