@@ -1,32 +1,8 @@
 # ISAAC ProductReports Magento module
 
-<div class="2columns">
-<div class="left">
 The ISAAC Product Reports extension provides administrator(s) with two extra product reports that help to keep your catalog healthy. One report shows all products that are not assigned to any category and the other shows all products without images. The products are presented in a grid that supports paging and filtering.
-</div>
-<div class="right">
-<img src="http://www.geekyplugins.com/magento/extension-screenshots/ProductReports_backend_example.png" />
-</div>
-</div>
 
-<style>
-.left {
-	display: block;
-    float: left;
-    width: 50%;
-    padding-right: 5%;
-}
-.right {
-	display: block;
-    float: left;
-    width: 45%;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-</style>
+![Backend example](images/ProductReports_backend_example.png)
 
 ## Features
 
@@ -43,8 +19,8 @@ Compatible with Magento versions 1.4.1 and later.
 
 ## Demo / Screenshots
 
-<img style="width: 300px; height: 225px;" src="http://www.geekyplugins.com/magento/extension-screenshots/ProductReports_backend_without_category.png" />
-<img style="width: 300px; height: 225px;" src="http://www.geekyplugins.com/magento/extension-screenshots/ProductReports_backend_without_image.png" />
+![Backend example](images/ProductReports_backend_without_category.png)
+![Backend example](images/ProductReports_backend_without_image.png)
 
 ## Installation Instructions
 
