@@ -1,6 +1,32 @@
 # ISAAC ProductReports Magento module
 
+<div class="2columns">
+<div class="left">
 The ISAAC Product Reports extension provides administrator(s) with two extra product reports that help to keep your catalog healthy. One report shows all products that are not assigned to any category and the other shows all products without images. The products are presented in a grid that supports paging and filtering.
+</div>
+<div class="right">
+<img src="http://www.geekyplugins.com/magento/extension-screenshots/ProductReports_backend_example.png" />
+</div>
+</div>
+
+<style>
+.left {
+	display: block;
+    float: left;
+    width: 50%;
+    padding-right: 5%;
+}
+.right {
+	display: block;
+    float: left;
+    width: 45%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+</style>
 
 ## Features
 
@@ -14,6 +40,11 @@ Each report shows a paged and searchable grid containing the products that match
 Translations include English and Dutch.
 
 Compatible with Magento versions 1.4.1 and later.
+
+## Demo / Screenshots
+
+<img style="width: 300px; height: 225px;" src="http://www.geekyplugins.com/magento/extension-screenshots/ProductReports_backend_without_category.png" />
+<img style="width: 300px; height: 225px;" src="http://www.geekyplugins.com/magento/extension-screenshots/ProductReports_backend_without_image.png" />
 
 ## Installation Instructions
 
@@ -58,7 +89,13 @@ composer install
 
 #### Manually
 
-1. Copy the files from the folders of this repository to the same folders of your installation.
+Copy the files from the folders of this repository to the same folders of your installation.
+Each ISAAC Magento plugin is distributed as a .zip file. You can install the plugin by unzipping the package in the Magento root.
+
+```
+cd /path/to/magento
+unzip /path/to/isaac_module.zip
+```
 
 ### Finish installation
 
